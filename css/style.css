@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,700&family=Fraunces:opsz@9..144&family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Open+Sans:wght@700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+    --Soft-red: hsl(10, 79%, 65%);
+    --SoftHover: hsl(10, 61%, 40%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Cyanhover: rgb(54, 161, 173);
+    --white: #ffff;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--Cream);
+}
+
+section{
+    width: 35%;
+    margin: 12rem auto;
+}
+
+.title{
+    background-color: var(--Soft-red);
+    border-radius: 10px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.sub{
+    color: var(--white);
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.subP{
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contenido{
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.conTitle{
+    margin-bottom: 3rem;
+}
+
+.semana{
+    margin: 1rem auto;
+}
+
+.estadistica{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.lunes{
+    background-color: var(--Soft-red);
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.martes{
+    background-color: var(--Soft-red);
+    width: 3rem;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.miercoles{
+    background-color: var(--Cyan);
+    width: 3rem;
+    cursor: pointer;
+    height: 8rem;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+
+.miercoles:hover{
+    background-color: var(--Cyanhover);
+    cursor: pointer;
+    
+}
+
+.jueves{
+    background-color: var(--Soft-red);
+    width: 3rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+.jueves:hover{
+    background-color: var(--SoftHover);
+    cursor: pointer;
+}
+
+
+.viernes{
+    background-color: var(--Soft-red);
+    width: 3rem;
+    cursor: pointer;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.sabado{
+    background-color: var(--Soft-red);
+    width: 3rem;
+    cursor: pointer;
+    height: 7rem;
+    border-radius: 5px;
+}
+
+.domingo{
+    background-color: var(--Soft-red);
+    width: 3rem;
+    cursor: pointer;
+    height: 5.5rem;
+    border-radius: 5px;
+}
+
+.dias{
+    display: flex;
+    justify-content: space-between;
+    color: var(--Medium-brown);
+}
+
+.cantidadM{
+    position: absolute;
+    top: -2.5rem;
+    left: 7.2rem;
+    background-color: var(--Dark-brown);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform .3s ease-in-out;
+    cursor: none;
+    visibility: hidden;
+}
+
+
+
+.cantidadJ{
+    position: absolute;
+    top: 1rem;
+    left: 11rem;
+    background-color: var(--Dark-brown);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform .3s ease-in-out;
+    visibility: hidden;
+}
+
+.hen{
+    visibility: visible;
+}
+
+.diasSemana{
+    width: 3rem;
+}
+
+.linea{
+    width: 90%;
+    height: 2px;
+    background-color: var(--Cream);
+    margin: 0 auto 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+h3{
+    font-size: 15px;
+    color: var(--Medium-brown);
+}
+
+.total{
+    font-size: 2rem;
+    color: var(--Dark-brown);
+    font-weight: 700;
+}
+
+.footer-2{
+    margin-top: 15px;
+}
+
+.porcentaje{
+    font-size: 1rem;
+    color: var(--Dark-brown);
+    font-weight: 700;
+}
+
+.porFin{
+    font-size: 15px;
+    color: var(--Medium-brown);
+}
